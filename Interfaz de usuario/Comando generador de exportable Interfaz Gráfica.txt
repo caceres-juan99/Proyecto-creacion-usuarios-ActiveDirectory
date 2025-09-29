@@ -1,0 +1,9 @@
+- Se debe entrar primero a la ruta de la capeta "Interfaz de usuario": 
+
+cd "C:/Users/pepitoperez/Interfaz de usuario"
+
+- Ejecutar el siguiente comando:
+
+python -m PyInstaller --onefile --add-data "C:/Users/pepitoperez/Interfaz de usuario/Iconos/Fondo de interfaz.png;Iconos" --icon="C:/Users/pepitoperez/Interfaz de usuario/Iconos/Icono de ventana.ico" --noconsole Interfaz.py 
+
+El anterior comando contiene la ruta de la imagen "Fondo de interfaz.png" y del icono llamado "Icono de ventana.ico", por lo cual es necesario ingresar estas rutas de forma correcta de acuerdo donde se encuentren los archivos dentro del disco local del PC.
